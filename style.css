@@ -1,0 +1,20 @@
+/* 
+*: Select all the elements on your page
+.class1: All the elements that is labelled as .class1.
+		For example <p class="class1"></p>
+#id1: The single element that is labelled as id1.
+		For example <p id="id1"></p>
+div, p: All <div> and <p> elements
+div p: All the <p> elements inside <div> element
+div > p: All the direct <p> children inside <div> element
+div + p: Select and style every <p> element that are placed immediately after <div></div> elements.
+:hover
+:last-child
+:first_child
+!important
+*/
+
+.col {
+	background-color: pink;
+	border: 2px solid;
+}
